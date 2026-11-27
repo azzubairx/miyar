@@ -1,0 +1,2948 @@
+{
+  "cosmeticIngredients": [
+    {
+      "id": "COS-ING-0001",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Formaldehyde",
+      "name_ar": "فورمالديهايد",
+      "inci_name": "Formaldehyde",
+      "synonyms_en": [
+        "Formaldehyde",
+        "Methanal",
+        "Formalin"
+      ],
+      "synonyms_ar": [
+        "فورمالديهايد",
+        "ميثانال",
+        "فورمالين"
+      ],
+      "cas_number": "50-00-0",
+      "ec_number": "200-001-8",
+      "functions_ar": [
+        "مادة حافظة (محظورة)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "1577",
+          "status": "prohibited",
+          "conditions_ar": "محظورة كمكوّن في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد توجد كميات ضئيلة ناتجة عن إطلاق مواد حافظة أخرى (مثل مانحات الفورمالديهايد)، وهذا يخضع لتقييم منفصل. الحظر لا يعني ضمان خلو المنتج من أي أثر."
+    },
+    {
+      "id": "COS-ING-0002",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Hydroquinone",
+      "name_ar": "هيدروكينون",
+      "inci_name": "Hydroquinone",
+      "synonyms_en": [
+        "Hydroquinone",
+        "1,4-Benzenediol",
+        "Quinol"
+      ],
+      "synonyms_ar": [
+        "هيدروكينون",
+        "كينول"
+      ],
+      "cas_number": "123-31-9",
+      "ec_number": "204-617-8",
+      "functions_ar": [
+        "مبيّض للبشرة (محظور عمومًا)",
+        "مكوّن في أنظمة الأظافر الاصطناعية"
+      ],
+      "category_ar": "مادة محظورة / مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "1339",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل، باستثناء الاستخدام المنظم في الملحق III.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        },
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "14",
+          "status": "restricted",
+          "conditions_ar": "مسموح فقط في أنظمة الأظافر الاصطناعية بتركيز أقصى 0.02% بعد الخلط، للاستخدام المهني فقط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.02,
+          "unit": "%",
+          "product_types": [
+            "artificial nail systems"
+          ],
+          "conditions_ar": "بعد الخلط للاستخدام، للاستخدام المهني فقط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الاستخدام خارج أنظمة الأظافر الاصطناعية المهنية محظور. لا يجوز استنتاج السلامة من وجود حد مهني ضيق."
+    },
+    {
+      "id": "COS-ING-0003",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Mercury",
+      "name_ar": "الزئبق ومركباته",
+      "inci_name": "Mercury",
+      "synonyms_en": [
+        "Mercury",
+        "Mercury compounds",
+        "Hydrargyrum"
+      ],
+      "synonyms_ar": [
+        "زئبق",
+        "مركبات الزئبق"
+      ],
+      "cas_number": "7439-97-6",
+      "ec_number": "231-106-7",
+      "functions_ar": [
+        "مادة حافظة / مبيّض (محظورة)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "221",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل باستثناء الحالات الخاصة المذكورة في الملحق V.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "له آثار سمية عصبية وكلوية. لا توجد حدود استخدام عامة في مستحضرات التجميل."
+    },
+    {
+      "id": "COS-ING-0004",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Lead",
+      "name_ar": "الرصاص ومركباته",
+      "inci_name": "Lead",
+      "synonyms_en": [
+        "Lead",
+        "Lead compounds"
+      ],
+      "synonyms_ar": [
+        "رصاص",
+        "مركبات الرصاص"
+      ],
+      "cas_number": "7439-92-1",
+      "ec_number": "231-100-4",
+      "functions_ar": [
+        "ملوّن / شوائب (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "289",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد يوجد كشوائب في بعض الصبغات والمعادن؛ وجوده كشائبة لا يجعل الإضافة المقصودة مسموحة."
+    },
+    {
+      "id": "COS-ING-0005",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Arsenic",
+      "name_ar": "الزرنيخ ومركباته",
+      "inci_name": "Arsenic",
+      "synonyms_en": [
+        "Arsenic",
+        "Arsenic compounds"
+      ],
+      "synonyms_ar": [
+        "زرنيخ",
+        "مركبات الزرنيخ"
+      ],
+      "cas_number": "7440-38-2",
+      "ec_number": "231-148-6",
+      "functions_ar": [
+        "مادة محظورة"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "43",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مادة سامة ومصنفة مسببة للسرطان لدى البشر. الحظر يشمل مركباته."
+    },
+    {
+      "id": "COS-ING-0006",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Cadmium",
+      "name_ar": "الكادميوم ومركباته",
+      "inci_name": "Cadmium",
+      "synonyms_en": [
+        "Cadmium",
+        "Cadmium compounds"
+      ],
+      "synonyms_ar": [
+        "كادميوم",
+        "مركبات الكادميوم"
+      ],
+      "cas_number": "7440-43-9",
+      "ec_number": "231-152-8",
+      "functions_ar": [
+        "مادة محظورة"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "68",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مادة سامة للكلى والعظام ومصنفة مسببة للسرطان. الحظر يشمل مركباته."
+    },
+    {
+      "id": "COS-ING-0007",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Benzene",
+      "name_ar": "البنزين",
+      "inci_name": "Benzene",
+      "synonyms_en": [
+        "Benzene",
+        "Benzol"
+      ],
+      "synonyms_ar": [
+        "بنزين"
+      ],
+      "cas_number": "71-43-2",
+      "ec_number": "200-753-7",
+      "functions_ar": [
+        "مذيب (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "47",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مصنف مسببًا للسرطان لدى البشر. قد يظهر كشائبة في مذيبات؛ لا يجوز إضافته كمكوّن."
+    },
+    {
+      "id": "COS-ING-0008",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Chloroform",
+      "name_ar": "كلوروفورم",
+      "inci_name": "Chloroform",
+      "synonyms_en": [
+        "Chloroform",
+        "Trichloromethane"
+      ],
+      "synonyms_ar": [
+        "كلوروفورم",
+        "ثلاثي كلورو الميثان"
+      ],
+      "cas_number": "67-66-3",
+      "ec_number": "200-663-8",
+      "functions_ar": [
+        "مذيب (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "366",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مادة سامة ومشتبه في كونها مسببة للسرطان. لا يُسمح باستخدامها كمذيب."
+    },
+    {
+      "id": "COS-ING-0009",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Bithionol",
+      "name_ar": "بيثيونول",
+      "inci_name": "Bithionol",
+      "synonyms_en": [
+        "Bithionol"
+      ],
+      "synonyms_ar": [
+        "بيثيونول"
+      ],
+      "cas_number": "97-18-7",
+      "ec_number": "202-565-0",
+      "functions_ar": [
+        "مضاد للبكتيريا (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "352",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "ارتبط بتفاعلات حساسية ضوئية شديدة. محظور."
+    },
+    {
+      "id": "COS-ING-0010",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Hexachlorophene",
+      "name_ar": "هيكساكلوروفين",
+      "inci_name": "Hexachlorophene",
+      "synonyms_en": [
+        "Hexachlorophene"
+      ],
+      "synonyms_ar": [
+        "هيكساكلوروفين"
+      ],
+      "cas_number": "70-30-4",
+      "ec_number": "200-733-8",
+      "functions_ar": [
+        "مضاد للبكتيريا (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "371",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "له سمية عصبية عند الامتصاص الجهازي. محظور."
+    },
+    {
+      "id": "COS-ING-0011",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Butylphenyl methylpropional",
+      "name_ar": "بوتيل فينيل ميثيل بروبيونال (ليليال)",
+      "inci_name": "Butylphenyl Methylpropional",
+      "synonyms_en": [
+        "Butylphenyl methylpropional",
+        "Lilial",
+        "Lily aldehyde"
+      ],
+      "synonyms_ar": [
+        "ليليال",
+        "بوتيل فينيل ميثيل بروبيونال"
+      ],
+      "cas_number": "80-54-6",
+      "ec_number": "201-289-8",
+      "functions_ar": [
+        "مكوّن عطري (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "1666",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل اعتبارًا من 1 مارس 2022 بموجب اللائحة (EU) 2021/1902.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II",
+            "REF-EU-2021-1902"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1591/17",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ليليال",
+          "adopted": "2017-06-21",
+          "summary_ar": "لم تعتبر اللجنة المادة آمنة للاستخدام كمكوّن عطري في مستحضرات التجميل، مما أدى إلى حظرها.",
+          "reference_ids": [
+            "REF-SCCS-1591-17"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد يظهر تحت اسم Lilial أو Butylphenyl Methylpropional في قوائم المكونات القديمة."
+    },
+    {
+      "id": "COS-ING-0012",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Zinc pyrithione",
+      "name_ar": "بيريثيون الزنك",
+      "inci_name": "Zinc Pyrithione",
+      "synonyms_en": [
+        "Zinc pyrithione",
+        "Zinc omadine",
+        "ZPT"
+      ],
+      "synonyms_ar": [
+        "بيريثيون الزنك"
+      ],
+      "cas_number": "13463-41-7",
+      "ec_number": "236-671-3",
+      "functions_ar": [
+        "مضاد للقشرة / مادة حافظة (محظور)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "1670",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1614/19",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن بيريثيون الزنك",
+          "adopted": "2019-11-15",
+          "summary_ar": "لم تدعم اللجنة استمرار استخدام المادة في مستحضرات التجميل، وأُدرجت لاحقًا في الملحق II.",
+          "reference_ids": [
+            "REF-SCCS-1614-19"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يُعد وجوده في منتج قديم دليلًا على مشروعية بيعه حاليًا."
+    },
+    {
+      "id": "COS-ING-0013",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Quaternium-15",
+      "name_ar": "كوترنيوم-15",
+      "inci_name": "Quaternium-15",
+      "synonyms_en": [
+        "Quaternium-15",
+        "Dowicil 200"
+      ],
+      "synonyms_ar": [
+        "كوترنيوم-15"
+      ],
+      "cas_number": "4080-31-3",
+      "ec_number": "223-805-0",
+      "functions_ar": [
+        "مادة حافظة (محظورة)"
+      ],
+      "category_ar": "مادة محظورة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "1386",
+          "status": "prohibited",
+          "conditions_ar": "محظور في مستحضرات التجميل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مانح للفورمالديهايد، وقد يسبب حساسية جلدية. محظور."
+    },
+    {
+      "id": "COS-ING-0014",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Petrolatum",
+      "name_ar": "بيترولاتوم (هلام نفطي)",
+      "inci_name": "Petrolatum",
+      "synonyms_en": [
+        "Petrolatum",
+        "Petroleum jelly",
+        "Mineral jelly"
+      ],
+      "synonyms_ar": [
+        "بيترولاتوم",
+        "هلام نفطي",
+        "فازلين"
+      ],
+      "cas_number": "8009-03-8",
+      "ec_number": "232-373-2",
+      "functions_ar": [
+        "مرطب / قاعدة"
+      ],
+      "category_ar": "مادة مقيدة شرطيًا",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "II",
+          "entry": "904",
+          "status": "conditional",
+          "conditions_ar": "محظور إلا إذا كان تاريخ التكرير الكامل معروفًا ويمكن إثبات أن المادة المصدر ليست مسببة للسرطان.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-II"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "البيترولاتوم النقي المستخدم في مستحضرات التجميل شائع، لكن مجرد ورود الاسم لا يثبت درجة النقاء أو تاريخ التكرير. هذا حد شرطي وليس حظرًا مطلقًا."
+    },
+    {
+      "id": "COS-ING-0015",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Triclosan",
+      "name_ar": "تريكلوسان",
+      "inci_name": "Triclosan",
+      "synonyms_en": [
+        "Triclosan",
+        "Irgasan"
+      ],
+      "synonyms_ar": [
+        "تريكلوسان"
+      ],
+      "cas_number": "3380-34-5",
+      "ec_number": "222-182-2",
+      "functions_ar": [
+        "مضاد للبكتيريا / مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "25",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.3% في معاجين الأسنان، صابون اليدين، صابون الجسم/جل الاستحمام، مزيلات العرق غير الرشاشة، مساحيق الوجه وكريمات إخفاء العيوب، ومنتجات الأظافر المحددة. لا يُستخدم في معجون أسنان للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.3,
+          "unit": "%",
+          "product_types": [
+            "toothpaste",
+            "hand soap",
+            "body soap",
+            "shower gel",
+            "non-spray deodorant",
+            "face powder",
+            "blemish concealer",
+            "nail products"
+          ],
+          "conditions_ar": "لا يُستخدم في معجون أسنان للأطفال تحت 3 سنوات. يلزم وسم معجون الأسنان بعبارة عدم الاستخدام للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1643/22",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن تريكلوسان",
+          "adopted": "2022-03-15",
+          "summary_ar": "أيدت اللجنة الاستخدام ضمن الحدود والفئات المنظمة في الملحق V، مع مراعاة قيود معجون الأسنان للأطفال.",
+          "reference_ids": [
+            "REF-SCCS-1643-22"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الاستخدام خارج الفئات المذكورة غير مسموح به كمادة حافظة."
+    },
+    {
+      "id": "COS-ING-0016",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Methylparaben",
+      "name_ar": "ميثيل بارابين",
+      "inci_name": "Methylparaben",
+      "synonyms_en": [
+        "Methylparaben",
+        "Methyl 4-hydroxybenzoate",
+        "E 218"
+      ],
+      "synonyms_ar": [
+        "ميثيل بارابين",
+        "E218"
+      ],
+      "cas_number": "99-76-3",
+      "ec_number": "202-785-7",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "12",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.4% محسوبًا كحمض للاستر المفرد، و0.8% محسوبًا كحمض لمخاليط الاسترات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.4,
+          "unit": "%",
+          "basis_ar": "محسوبًا كحمض (as acid) للاستر المفرد.",
+          "conditions_ar": "الحد 0.8% محسوبًا كحمض عند خلط استرات متعددة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1650/23",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ميثيل بارابين",
+          "adopted": "2023-06-06",
+          "summary_ar": "اعتبرت اللجنة الاستخدام آمنًا كمادة حافظة حتى 0.4% محسوبًا كحمض، مع مراعاة القيود التنظيمية.",
+          "reference_ids": [
+            "REF-SCCS-1650-23"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "البارابين ليس مادة محظورة. الحد ينطبق على الاستخدام كمادة حافظة."
+    },
+    {
+      "id": "COS-ING-0017",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Propylparaben",
+      "name_ar": "بروبيل بارابين",
+      "inci_name": "Propylparaben",
+      "synonyms_en": [
+        "Propylparaben",
+        "Propyl 4-hydroxybenzoate",
+        "E 216"
+      ],
+      "synonyms_ar": [
+        "بروبيل بارابين",
+        "E216"
+      ],
+      "cas_number": "94-13-3",
+      "ec_number": "202-307-7",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "12a",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.14% محسوبًا كحمض، منفردًا أو في مخاليط، ولا يُستخدم في المنتجات المخصصة لمنطقة الحفاضات للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.14,
+          "unit": "%",
+          "basis_ar": "محسوبًا كحمض (as acid).",
+          "conditions_ar": "يشمل مجموع البروبيل والبيوتيل بارابين. لا يُستخدم في منتجات منطقة الحفاضات للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1623/20",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن بروبيل بارابين",
+          "adopted": "2020-10-26",
+          "summary_ar": "اعتبرت اللجنة الاستخدام آمنًا حتى 0.14% محسوبًا كحمض، مع استثناء منتجات منطقة الحفاضات للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-SCCS-1623-20"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "يُجمع مع البيوتيل بارابين عند حساب الحد 0.14%."
+    },
+    {
+      "id": "COS-ING-0018",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Butylparaben",
+      "name_ar": "بيوتيل بارابين",
+      "inci_name": "Butylparaben",
+      "synonyms_en": [
+        "Butylparaben",
+        "Butyl 4-hydroxybenzoate"
+      ],
+      "synonyms_ar": [
+        "بيوتيل بارابين"
+      ],
+      "cas_number": "94-26-8",
+      "ec_number": "202-318-7",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "12a",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.14% محسوبًا كحمض، منفردًا أو في مخاليط، ولا يُستخدم في المنتجات المخصصة لمنطقة الحفاضات للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.14,
+          "unit": "%",
+          "basis_ar": "محسوبًا كحمض (as acid).",
+          "conditions_ar": "يشمل مجموع البروبيل والبيوتيل بارابين. لا يُستخدم في منتجات منطقة الحفاضات للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1652/23",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن بيوتيل بارابين",
+          "adopted": "2023-06-06",
+          "summary_ar": "اعتبرت اللجنة الاستخدام آمنًا حتى 0.14% محسوبًا كحمض، مع القيود المتعلقة بالأطفال.",
+          "reference_ids": [
+            "REF-SCCS-1652-23"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "يُجمع مع البروبيل بارابين عند حساب الحد 0.14%."
+    },
+    {
+      "id": "COS-ING-0019",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Phenoxyethanol",
+      "name_ar": "فينوكسي إيثانول",
+      "inci_name": "Phenoxyethanol",
+      "synonyms_en": [
+        "Phenoxyethanol",
+        "2-Phenoxyethanol",
+        "Ethylene glycol monophenyl ether"
+      ],
+      "synonyms_ar": [
+        "فينوكسي إيثانول"
+      ],
+      "cas_number": "122-99-6",
+      "ec_number": "204-589-7",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "29",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 1.0%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 1,
+          "unit": "%",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1575/16",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن فينوكسي إيثانول",
+          "adopted": "2016-10-20",
+          "summary_ar": "اعتبرت اللجنة الاستخدام آمنًا كمادة حافظة حتى 1.0% في جميع أنواع المنتجات.",
+          "reference_ids": [
+            "REF-SCCS-1575-16"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "شائع كمادة حافظة بديلة للبارابين؛ الحد 1% مستقل عن وظائف أخرى."
+    },
+    {
+      "id": "COS-ING-0020",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Benzyl alcohol",
+      "name_ar": "كحول بنزيلي",
+      "inci_name": "Benzyl Alcohol",
+      "synonyms_en": [
+        "Benzyl alcohol",
+        "Benzenemethanol",
+        "Phenylcarbinol"
+      ],
+      "synonyms_ar": [
+        "كحول بنزيلي"
+      ],
+      "cas_number": "100-51-6",
+      "ec_number": "202-859-9",
+      "functions_ar": [
+        "مادة حافظة",
+        "مذيب",
+        "مكوّن عطري"
+      ],
+      "category_ar": "مادة حافظة / مكوّن عطري",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "34",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 1.0% عند استخدامه كمادة حافظة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        },
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "45",
+          "status": "labelling_required",
+          "conditions_ar": "يُستخدم لأغراض غير تثبيط نمو الكائنات الدقيقة، ويجب أن يكون ذلك واضحًا من عرض المنتج.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 1,
+          "unit": "%",
+          "conditions_ar": "ينطبق على الاستخدام كمادة حافظة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد يظهر أيضًا كمكوّن عطري؛ الحد 1% يخص وظيفة الحفظ."
+    },
+    {
+      "id": "COS-ING-0021",
+      "kind": "cosmetic_ingredient",
+      "name_en": "DMDM hydantoin",
+      "name_ar": "دي إم دي إم هيدانتوين",
+      "inci_name": "DMDM Hydantoin",
+      "synonyms_en": [
+        "DMDM hydantoin",
+        "1,3-Bis(hydroxymethyl)-5,5-dimethylimidazolidine-2,4-dione"
+      ],
+      "synonyms_ar": [
+        "دي إم دي إم هيدانتوين"
+      ],
+      "cas_number": "6440-58-0",
+      "ec_number": "229-222-8",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة (مانحة للفورمالديهايد)",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "33",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.6%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.6,
+          "unit": "%",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مانح للفورمالديهايد. قد يثير حساسية لدى الأشخاص الحساسين للفورمالديهايد."
+    },
+    {
+      "id": "COS-ING-0022",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Imidazolidinyl urea",
+      "name_ar": "إيميدازوليدينيل يوريا",
+      "inci_name": "Imidazolidinyl Urea",
+      "synonyms_en": [
+        "Imidazolidinyl urea",
+        "Germall 115"
+      ],
+      "synonyms_ar": [
+        "إيميدازوليدينيل يوريا"
+      ],
+      "cas_number": "39236-46-9",
+      "ec_number": "254-372-6",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة (مانحة للفورمالديهايد)",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "27",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.6%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.6,
+          "unit": "%",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مانح للفورمالديهايد. قد يثير حساسية لدى الأشخاص الحساسين."
+    },
+    {
+      "id": "COS-ING-0023",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Diazolidinyl urea",
+      "name_ar": "ديازوليدينيل يوريا",
+      "inci_name": "Diazolidinyl Urea",
+      "synonyms_en": [
+        "Diazolidinyl urea",
+        "Germall II"
+      ],
+      "synonyms_ar": [
+        "ديازوليدينيل يوريا"
+      ],
+      "cas_number": "78491-02-8",
+      "ec_number": "278-928-2",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة (مانحة للفورمالديهايد)",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "46",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.5%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.5,
+          "unit": "%",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مانح للفورمالديهايد. قد يثير حساسية لدى الأشخاص الحساسين."
+    },
+    {
+      "id": "COS-ING-0024",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Methylisothiazolinone",
+      "name_ar": "ميثيل إيزوثيازولينون",
+      "inci_name": "Methylisothiazolinone",
+      "synonyms_en": [
+        "Methylisothiazolinone",
+        "MIT",
+        "2-Methyl-2H-isothiazol-3-one"
+      ],
+      "synonyms_ar": [
+        "ميثيل إيزوثيازولينون",
+        "MIT"
+      ],
+      "cas_number": "2682-20-4",
+      "ec_number": "220-239-6",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "57",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح فقط في المنتجات التي تُشطف بتركيز أقصى 0.0015%. محظور في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.0015,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "للمنتجات التي تُشطف فقط. لا يُستخدم في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1557/15",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ميثيل إيزوثيازولينون",
+          "adopted": "2015-12-15",
+          "summary_ar": "اعتبرت اللجنة 0.0015% آمنًا في المنتجات التي تُشطف فقط، ولم تدعم استخدامه في المنتجات التي لا تُشطف بسبب خطر التحسس.",
+          "reference_ids": [
+            "REF-SCCS-1557-15"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مسبب حساسية جلدي قوي. وجوده في منتج للبشرة يترك دون شطف يستدعي انتباهًا خاصًا."
+    },
+    {
+      "id": "COS-ING-0025",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Methylchloroisothiazolinone (and) Methylisothiazolinone",
+      "name_ar": "ميثيل كلورو إيزوثيازولينون وميثيل إيزوثيازولينون (خليط)",
+      "inci_name": "Methylchloroisothiazolinone (and) Methylisothiazolinone",
+      "synonyms_en": [
+        "MCI/MI",
+        "Methylchloroisothiazolinone (and) Methylisothiazolinone",
+        "Kathon CG"
+      ],
+      "synonyms_ar": [
+        "MCI/MI",
+        "كاثون CG"
+      ],
+      "cas_number": "55965-84-9",
+      "ec_number": "247-500-7",
+      "functions_ar": [
+        "مادة حافظة"
+      ],
+      "category_ar": "مادة حافظة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "39",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح فقط في المنتجات التي تُشطف بتركيز أقصى 0.0015% من خليط بنسبة 3:1.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.0015,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "من خليط بنسبة 3:1 من 5-كلورو-2-ميثيل إيزوثيازول-3-ون و2-ميثيل إيزوثيازول-3-ون. للمنتجات التي تُشطف فقط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يجوز الجمع بين هذا الخليط وميثيل إيزوثيازولينون منفردًا في المنتج نفسه."
+    },
+    {
+      "id": "COS-ING-0026",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Salicylic acid",
+      "name_ar": "حمض الساليسيليك",
+      "inci_name": "Salicylic Acid",
+      "synonyms_en": [
+        "Salicylic acid",
+        "2-Hydroxybenzoic acid",
+        "BHA"
+      ],
+      "synonyms_ar": [
+        "حمض الساليسيليك"
+      ],
+      "cas_number": "69-72-7",
+      "ec_number": "200-712-3",
+      "functions_ar": [
+        "مقشّر / مضاد للقشرة / مادة حافظة"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "98",
+          "status": "restricted",
+          "conditions_ar": "حد أقصى 3.0% في منتجات الشعر التي تُشطف، و2.0% في المنتجات الأخرى باستثناء لوشن الجسم وظلال العيون والماسكارا والكحل وأحمر الشفاه ومزيل العرق الدوّار، و0.5% في تلك الفئات. لا يُستخدم للأطفال تحت 3 سنوات، ولا في منتجات فموية أو قد تؤدي لاستنشاقه.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "V",
+          "entry": "3",
+          "status": "permitted_preservative",
+          "conditions_ar": "مسموح بتركيز أقصى 0.5% محسوبًا كحمض عند استخدامه كمادة حافظة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-V"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 3,
+          "unit": "%",
+          "product_types": [
+            "rinse-off hair products"
+          ],
+          "conditions_ar": "محسوبًا كحمض. لا يُستخدم للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 2,
+          "unit": "%",
+          "product_types": [
+            "other products"
+          ],
+          "conditions_ar": "محسوبًا كحمض، باستثناء الفئات ذات الحد 0.5%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 0.5,
+          "unit": "%",
+          "product_types": [
+            "body lotion",
+            "eye shadow",
+            "mascara",
+            "eyeliner",
+            "lipstick",
+            "roll-on deodorant"
+          ],
+          "conditions_ar": "محسوبًا كحمض. لا يُستخدم للأطفال تحت 3 سنوات.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1646/22",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن حمض الساليسيليك",
+          "adopted": "2022-06-24",
+          "summary_ar": "اعتبرت اللجنة الاستخدامات المنظمة آمنة ضمن الحدود والفئات المحددة، مع استمرار قيود الأطفال والاستنشاق والمنتجات الفموية.",
+          "reference_ids": [
+            "REF-SCCS-1646-22"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "يُجمع مع أملاح الساليسيلات عند حساب الحد. ليس مقشرًا آمنًا لجميع أنواع البشرة."
+    },
+    {
+      "id": "COS-ING-0027",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Retinol",
+      "name_ar": "ريتينول",
+      "inci_name": "Retinol",
+      "synonyms_en": [
+        "Retinol",
+        "Vitamin A",
+        "Retinyl acetate",
+        "Retinyl palmitate"
+      ],
+      "synonyms_ar": [
+        "ريتينول",
+        "فيتامين أ"
+      ],
+      "cas_number": "68-26-8",
+      "ec_number": "200-683-7",
+      "functions_ar": [
+        "مكوّن للعناية بالبشرة / مضاد للشيخوخة"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "376",
+          "status": "restricted",
+          "conditions_ar": "حد أقصى 0.05% مكافئ ريتينول (RE) في لوشن الجسم، و0.3% RE في المنتجات الأخرى التي تُترك أو تُشطف. يلزم وسم: «يحتوي فيتامين أ. ضع في اعتبارك مدخولك اليومي قبل الاستخدام».",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 0.05,
+          "unit": "%",
+          "basis_ar": "مكافئ ريتينول (Retinol Equivalent, RE).",
+          "product_types": [
+            "body lotion"
+          ],
+          "conditions_ar": "يشمل الريتينول وأسيتات الريتينيل وبالميتات الريتينيل.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 0.3,
+          "unit": "%",
+          "basis_ar": "مكافئ ريتينول (Retinol Equivalent, RE).",
+          "product_types": [
+            "other leave-on and rinse-off products"
+          ],
+          "conditions_ar": "يلزم وسم التنبيه بشأن فيتامين أ.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1576/16",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن الريتينول",
+          "adopted": "2016-10-20",
+          "summary_ar": "اعتبرت اللجنة الحدود المنظمة آمنة مع مراعاة مجموع التعرض لفيتامين أ من جميع المصادر، وأوصت بوسم واضح.",
+          "reference_ids": [
+            "REF-SCCS-1576-16"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحمل والاستخدام الموضعي المكثف لفيتامين أ موضوعان يستدعيان استشارة طبية. الحد لا يعني غياب التهيج."
+    },
+    {
+      "id": "COS-ING-0028",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Kojic acid",
+      "name_ar": "حمض الكوجيك",
+      "inci_name": "Kojic Acid",
+      "synonyms_en": [
+        "Kojic acid",
+        "5-Hydroxy-2-(hydroxymethyl)-4H-pyran-4-one"
+      ],
+      "synonyms_ar": [
+        "حمض الكوجيك"
+      ],
+      "cas_number": "501-30-4",
+      "ec_number": "207-922-4",
+      "functions_ar": [
+        "مبيّض / مضاد للأكسدة"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "375",
+          "status": "restricted",
+          "conditions_ar": "مسموح بتركيز أقصى 1% في منتجات الوجه واليدين.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 1,
+          "unit": "%",
+          "product_types": [
+            "face products",
+            "hand products"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1637/21",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن حمض الكوجيك",
+          "adopted": "2021-06-24",
+          "summary_ar": "اعتبرت اللجنة 1% آمنًا في منتجات الوجه واليدين، مع عدم كفاية البيانات لاستخدامات أخرى.",
+          "reference_ids": [
+            "REF-SCCS-1637-21"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد يسبب تهيجًا. لا يُستنتج من الحد أن التبييض آمن أو ضروري طبيًا."
+    },
+    {
+      "id": "COS-ING-0029",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Alpha-Arbutin",
+      "name_ar": "ألفا أربوتين",
+      "inci_name": "Alpha-Arbutin",
+      "synonyms_en": [
+        "Alpha-Arbutin",
+        "4-Hydroxyphenyl alpha-D-glucopyranoside"
+      ],
+      "synonyms_ar": [
+        "ألفا أربوتين"
+      ],
+      "cas_number": "84380-01-8",
+      "ec_number": "617-561-8",
+      "functions_ar": [
+        "مبيّض / مكوّن للعناية بالبشرة"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "377",
+          "status": "restricted",
+          "conditions_ar": "حد أقصى 2% في كريم الوجه و0.5% في لوشن الجسم. يجب أن يبقى مستوى الهيدروكينون في التركيبة عند أدنى حد ممكن وألا يتجاوز مستوى الأثر الذي لا يمكن تجنبه.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 2,
+          "unit": "%",
+          "product_types": [
+            "face cream"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 0.5,
+          "unit": "%",
+          "product_types": [
+            "body lotion"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1552/15",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ألفا أربوتين",
+          "adopted": "2015-09-25",
+          "summary_ar": "اعتبرت اللجنة 2% في كريم الوجه و0.5% في لوشن الجسم آمنين، مع مراقبة الهيدروكينون كشائبة.",
+          "reference_ids": [
+            "REF-SCCS-1552-15"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "ليس بديلًا طبيًا عن علاج التصبغ. قد يتحلل إلى هيدروكينون بكميات ضئيلة."
+    },
+    {
+      "id": "COS-ING-0030",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Arbutin",
+      "name_ar": "أربوتين",
+      "inci_name": "Arbutin",
+      "synonyms_en": [
+        "Arbutin",
+        "4-Hydroxyphenyl beta-D-glucopyranoside"
+      ],
+      "synonyms_ar": [
+        "أربوتين"
+      ],
+      "cas_number": "497-76-7",
+      "ec_number": "207-850-3",
+      "functions_ar": [
+        "مبيّض / مكوّن للعناية بالبشرة"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "378",
+          "status": "restricted",
+          "conditions_ar": "مسموح بتركيز أقصى 7% في كريم الوجه. يجب أن يبقى مستوى الهيدروكينون عند أدنى حد ممكن وألا يتجاوز مستوى الأثر الذي لا يمكن تجنبه.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 7,
+          "unit": "%",
+          "product_types": [
+            "face cream"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1550/15",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن أربوتين",
+          "adopted": "2015-09-25",
+          "summary_ar": "اعتبرت اللجنة 7% في كريم الوجه آمنًا، مع مراقبة الهيدروكينون كشائبة.",
+          "reference_ids": [
+            "REF-SCCS-1550-15"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد يخص كريم الوجه فقط، وليس جميع أنواع المنتجات."
+    },
+    {
+      "id": "COS-ING-0031",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Resorcinol",
+      "name_ar": "ريسورسينول",
+      "inci_name": "Resorcinol",
+      "synonyms_en": [
+        "Resorcinol",
+        "1,3-Benzenediol"
+      ],
+      "synonyms_ar": [
+        "ريسورسينول"
+      ],
+      "cas_number": "108-46-3",
+      "ec_number": "203-585-2",
+      "functions_ar": [
+        "صبغة شعر"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "21",
+          "status": "restricted",
+          "conditions_ar": "صبغة في منتجات صبغ الشعر التأكسدي ومنتجات صبغ الرموش. بعد الخلط في ظروف تأكسدية يجب ألا يتجاوز التركيز المطبق على الشعر أو الرموش 1.25%. منتجات الرموش للاستخدام المهني فقط، ولا يجوز استخدامها لصبغ الرموش من قبل المستهلك.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 1.25,
+          "unit": "%",
+          "product_types": [
+            "oxidative hair dye",
+            "eyelash dye"
+          ],
+          "conditions_ar": "بعد الخلط في ظروف تأكسدية. منتجات الرموش للاستخدام المهني فقط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1619/20",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ريسورسينول",
+          "adopted": "2020-03-30",
+          "summary_ar": "اعتبرت اللجنة الاستخدام في صبغات الشعر التأكسدية آمنًا ضمن الحد 1.25% بعد الخلط، مع قيود مهنية ووسم واضح.",
+          "reference_ids": [
+            "REF-SCCS-1619-20"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مسبب شائع للحساسية. قد تسبب صبغات الشعر تفاعلات شديدة."
+    },
+    {
+      "id": "COS-ING-0032",
+      "kind": "cosmetic_ingredient",
+      "name_en": "p-Phenylenediamine",
+      "name_ar": "بارا فينيلين ديامين",
+      "inci_name": "p-Phenylenediamine",
+      "synonyms_en": [
+        "p-Phenylenediamine",
+        "PPD",
+        "1,4-Diaminobenzene"
+      ],
+      "synonyms_ar": [
+        "بارا فينيلين ديامين",
+        "PPD"
+      ],
+      "cas_number": "106-50-3",
+      "ec_number": "203-404-7",
+      "functions_ar": [
+        "صبغة شعر"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "8a",
+          "status": "restricted",
+          "conditions_ar": "صبغة في منتجات صبغ الشعر التأكسدي. بعد الخلط في ظروف تأكسدية يجب ألا يتجاوز التركيز المطبق على الشعر 2% محسوبًا كقاعدة حرة. يلزم وسم تحذيري شامل، ويُحظر استخدامه لصبغ الرموش أو الحواجب.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 2,
+          "unit": "%",
+          "basis_ar": "محسوبًا كقاعدة حرة (free base).",
+          "product_types": [
+            "oxidative hair dye"
+          ],
+          "conditions_ar": "بعد الخلط في ظروف تأكسدية. لا يُستخدم لصبغ الرموش أو الحواجب.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مسبب حساسية قوي. لا يجوز استخدامه لصبغ الرموش أو الحواجب."
+    },
+    {
+      "id": "COS-ING-0033",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Toluene",
+      "name_ar": "التولوين",
+      "inci_name": "Toluene",
+      "synonyms_en": [
+        "Toluene",
+        "Methylbenzene",
+        "Toluol"
+      ],
+      "synonyms_ar": [
+        "تولوين",
+        "ميثيل بنزين"
+      ],
+      "cas_number": "108-88-3",
+      "ec_number": "203-625-9",
+      "functions_ar": [
+        "مذيب في منتجات الأظافر"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "185",
+          "status": "restricted",
+          "conditions_ar": "مسموح بتركيز أقصى 25% في منتجات الأظافر. يُحفظ بعيدًا عن متناول الأطفال، وللاستخدام من البالغين فقط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 25,
+          "unit": "%",
+          "product_types": [
+            "nail products"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مذيب متطاير. الاستنشاق المكثف ضار بالجهاز العصبي. الحد لا يجعل الاستخدام خاليًا من المخاطر."
+    },
+    {
+      "id": "COS-ING-0034",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Aluminium-containing ingredients",
+      "name_ar": "مكونات الألومنيوم",
+      "inci_name": "Aluminium Chlorohydrate",
+      "synonyms_en": [
+        "Aluminium chlorohydrate",
+        "Aluminium chloride",
+        "Aluminium zirconium complexes"
+      ],
+      "synonyms_ar": [
+        "كلوروهيدرات الألومنيوم",
+        "مركبات الألومنيوم"
+      ],
+      "cas_number": null,
+      "ec_number": null,
+      "functions_ar": [
+        "مضاد للتعرق / مزيل عرق"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "381",
+          "status": "restricted",
+          "conditions_ar": "حد أقصى 7.73% محسوبًا كألومنيوم في مضادات التعرق أو مزيلات العرق غير الرشاشة، و3.24% في الرشاشة، و3.18% في معجون الأسنان. لا تُستخدم في منتجات واقية من الشمس قد تؤدي إلى استنشاقها.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 7.73,
+          "unit": "%",
+          "basis_ar": "محسوبًا كألومنيوم (as Al).",
+          "product_types": [
+            "non-aerosol antiperspirant",
+            "non-aerosol deodorant"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 3.24,
+          "unit": "%",
+          "basis_ar": "محسوبًا كألومنيوم (as Al).",
+          "product_types": [
+            "aerosol antiperspirant",
+            "aerosol deodorant"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 3.18,
+          "unit": "%",
+          "basis_ar": "محسوبًا كألومنيوم (as Al).",
+          "product_types": [
+            "toothpaste"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1662/23",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن مركبات الألومنيوم",
+          "adopted": "2023-06-06",
+          "summary_ar": "اعتبرت اللجنة الاستخدامات المنظمة آمنة ضمن الحدود المحسوبة كألومنيوم، مع استمرار قيود الاستنشاق.",
+          "reference_ids": [
+            "REF-SCCS-1662-23"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحدود تخص مركبات الألومنيوم في الفئات المذكورة، وليس كل منتج يحتوي ألومنيومًا."
+    },
+    {
+      "id": "COS-ING-0035",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Talc",
+      "name_ar": "التلك",
+      "inci_name": "Talc",
+      "synonyms_en": [
+        "Talc",
+        "Hydrated magnesium silicate"
+      ],
+      "synonyms_ar": [
+        "تلك",
+        "سيليكات المغنيسيوم المائية"
+      ],
+      "cas_number": "14807-96-6",
+      "ec_number": "238-877-9",
+      "functions_ar": [
+        "مادة ماصة / قاعدة مساحيق"
+      ],
+      "category_ar": "مادة مقيدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "59",
+          "status": "restricted",
+          "conditions_ar": "يُستخدم في المساحيق. للمنتجات المسحوقة المخصصة للأطفال تحت 3 سنوات يجب إبعاد المسحوق عن أنف وفم الأطفال. لا توجد نسبة قصوى محددة في هذا البند.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "المسألة الصحية الرئيسية تتعلق بالاستنشاق والتلوث بالأسبستوس، وليست التركيز في المستحضر. يجب أن يكون التلك خاليًا من الأسبستوس."
+    },
+    {
+      "id": "COS-ING-0036",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Titanium dioxide",
+      "name_ar": "ثاني أكسيد التيتانيوم",
+      "inci_name": "Titanium Dioxide",
+      "synonyms_en": [
+        "Titanium dioxide",
+        "CI 77891",
+        "TiO2"
+      ],
+      "synonyms_ar": [
+        "ثاني أكسيد التيتانيوم",
+        "CI 77891"
+      ],
+      "cas_number": "13463-67-7",
+      "ec_number": "236-675-5",
+      "functions_ar": [
+        "مرشح UV",
+        "صبغة بيضاء"
+      ],
+      "category_ar": "مرشح UV / صبغة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "27",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "مسموح كمرشح UV بتركيز أقصى 25%، ولا يُستخدم في التطبيقات التي قد تؤدي إلى استنشاقه. للمساحيق النانوية شروط إضافية.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        },
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "321",
+          "status": "restricted",
+          "conditions_ar": "مسحوق يحتوي على 1% أو أكثر من جزيئات قطرها الهوائي ≤ 10 ميكرومتر: 25% في مساحيق الوجه السائبة، و1.4% للاستهلاك العام و1.1% للاستخدام المهني في رشاشات الشعر، وفي المنتجات الأخرى لا يُستخدم حيث قد يسبب الاستنشاق.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 25,
+          "unit": "%",
+          "product_types": [
+            "UV filter",
+            "face powder"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI",
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 1.4,
+          "unit": "%",
+          "product_types": [
+            "hair aerosol spray"
+          ],
+          "conditions_ar": "للاستهلاك العام.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 1.1,
+          "unit": "%",
+          "product_types": [
+            "hair aerosol spray professional"
+          ],
+          "conditions_ar": "للاستخدام المهني.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1583/17",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن ثاني أكسيد التيتانيوم النانوي في الرشاشات",
+          "adopted": "2017-06-20",
+          "summary_ar": "اعتبرت اللجنة استخدام ثاني أكسيد التيتانيوم النانوي في رشاشات قد تؤدي إلى استنشاقه غير آمن.",
+          "reference_ids": [
+            "REF-SCCS-1583-17"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الخطر الرئيسي المرتبط بالمساحيق والرشاشات هو الاستنشاق. الشكل البلوري والنانو يغيران التقييم."
+    },
+    {
+      "id": "COS-ING-0037",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Zinc oxide",
+      "name_ar": "أكسيد الزنك",
+      "inci_name": "Zinc Oxide",
+      "synonyms_en": [
+        "Zinc oxide",
+        "CI 77947",
+        "ZnO"
+      ],
+      "synonyms_ar": [
+        "أكسيد الزنك",
+        "CI 77947"
+      ],
+      "cas_number": "1314-13-2",
+      "ec_number": "215-222-5",
+      "functions_ar": [
+        "مرشح UV",
+        "صبغة بيضاء"
+      ],
+      "category_ar": "مرشح UV",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "30",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "مسموح كمرشح UV بتركيز أقصى 25%، ولا يُستخدم في التطبيقات التي قد تؤدي إلى استنشاقه.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 25,
+          "unit": "%",
+          "product_types": [
+            "UV filter"
+          ],
+          "conditions_ar": "لا يُستخدم حيث قد يسبب الاستنشاق.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الشكل النانوي له بند منفصل وشروط إضافية. لا تُستخدم في رشاشات قد تُستنشق."
+    },
+    {
+      "id": "COS-ING-0038",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Benzophenone-3",
+      "name_ar": "بنزوفينون-3 (أوكسي بنزون)",
+      "inci_name": "Benzophenone-3",
+      "synonyms_en": [
+        "Benzophenone-3",
+        "Oxybenzone",
+        "2-Hydroxy-4-methoxybenzophenone"
+      ],
+      "synonyms_ar": [
+        "بنزوفينون-3",
+        "أوكسي بنزون"
+      ],
+      "cas_number": "131-57-7",
+      "ec_number": "205-031-5",
+      "functions_ar": [
+        "مرشح UV"
+      ],
+      "category_ar": "مرشح UV",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "4",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "حد أقصى 6% في منتجات الوجه واليدين والشفاه باستثناء الرشاشات الدافعة والمضخية، و2.2% في منتجات الجسم بما فيها الرشاشات، و0.5% في المنتجات الأخرى. يلزم وسم «يحتوي بنزوفينون-3» عند انطباق الشروط.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 6,
+          "unit": "%",
+          "product_types": [
+            "face products",
+            "hand products",
+            "lip products"
+          ],
+          "conditions_ar": "باستثناء الرشاشات الدافعة والمضخية.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 2.2,
+          "unit": "%",
+          "product_types": [
+            "body products"
+          ],
+          "conditions_ar": "بما فيها الرشاشات الدافعة والمضخية.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 0.5,
+          "unit": "%",
+          "product_types": [
+            "other products"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1625/20",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن بنزوفينون-3",
+          "adopted": "2020-10-26",
+          "summary_ar": "اعتبرت اللجنة الحدود المنظمة آمنة، مع مراعاة التعرض الكلي والحساسية المحتملة.",
+          "reference_ids": [
+            "REF-SCCS-1625-20"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مسبب شائع للحساسية الضوئية. قد يمتص عبر الجلد بدرجة أعلى في المنتجات الواسعة الاستخدام."
+    },
+    {
+      "id": "COS-ING-0039",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Homosalate",
+      "name_ar": "هوموسالات",
+      "inci_name": "Homosalate",
+      "synonyms_en": [
+        "Homosalate",
+        "Homomenthyl salicylate"
+      ],
+      "synonyms_ar": [
+        "هوموسالات"
+      ],
+      "cas_number": "118-56-9",
+      "ec_number": "204-260-8",
+      "functions_ar": [
+        "مرشح UV"
+      ],
+      "category_ar": "مرشح UV",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "3",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "مسموح بتركيز أقصى 7.34% في منتجات الوجه، باستثناء منتجات الرشاشات الدافعة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 7.34,
+          "unit": "%",
+          "product_types": [
+            "face products"
+          ],
+          "conditions_ar": "باستثناء منتجات الرشاشات الدافعة.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1622/20",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن هوموسالات",
+          "adopted": "2020-10-26",
+          "summary_ar": "اعتبرت اللجنة 7.34% في منتجات الوجه آمنًا، مع عدم كفاية البيانات لاستخدامات أخرى.",
+          "reference_ids": [
+            "REF-SCCS-1622-20"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد يخص منتجات الوجه فقط. قد يخضع لقيود إضافية في بعض الأسواق."
+    },
+    {
+      "id": "COS-ING-0040",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Octocrylene",
+      "name_ar": "أوكتوكريلين",
+      "inci_name": "Octocrylene",
+      "synonyms_en": [
+        "Octocrylene",
+        "2-Ethylhexyl 2-cyano-3,3-diphenylacrylate"
+      ],
+      "synonyms_ar": [
+        "أوكتوكريلين"
+      ],
+      "cas_number": "6197-30-4",
+      "ec_number": "228-250-8",
+      "functions_ar": [
+        "مرشح UV"
+      ],
+      "category_ar": "مرشح UV",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "10",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "حد أقصى 9% في منتجات الرشاشات الدافعة و10% في المنتجات الأخرى.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 9,
+          "unit": "%",
+          "product_types": [
+            "propellant spray products"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        },
+        {
+          "kind": "max_concentration",
+          "value": 10,
+          "unit": "%",
+          "product_types": [
+            "other products"
+          ],
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "SCCS/1627/21",
+          "title_ar": "رأي اللجنة العلمية لسلامة المستهلك بشأن أوكتوكريلين",
+          "adopted": "2021-06-24",
+          "summary_ar": "اعتبرت اللجنة الحدود المنظمة آمنة، مع مراقبة البنزوفينون كشائبة.",
+          "reference_ids": [
+            "REF-SCCS-1627-21"
+          ]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "قد يتحلل بمرور الوقت إلى بنزوفينون. التخزين والحرارة يؤثران على الاستقرار."
+    },
+    {
+      "id": "COS-ING-0041",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Butyl methoxydibenzoylmethane",
+      "name_ar": "بوتيل ميثوكسي ديبينزويل ميثان (أفوبنزون)",
+      "inci_name": "Butyl Methoxydibenzoylmethane",
+      "synonyms_en": [
+        "Butyl methoxydibenzoylmethane",
+        "Avobenzone"
+      ],
+      "synonyms_ar": [
+        "أفوبنزون",
+        "بوتيل ميثوكسي ديبينزويل ميثان"
+      ],
+      "cas_number": "70356-09-1",
+      "ec_number": "274-581-6",
+      "functions_ar": [
+        "مرشح UV"
+      ],
+      "category_ar": "مرشح UV",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "VI",
+          "entry": "8",
+          "status": "permitted_uv_filter",
+          "conditions_ar": "مسموح بتركيز أقصى 5%.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "max_concentration",
+          "value": 5,
+          "unit": "%",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-VI"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "مرشح UVA شائع، لكنه غير مستقر ضوئيًا وقد يحتاج إلى مثبتات. الحد لا يضمن ثبات الحماية."
+    },
+    {
+      "id": "COS-ING-0042",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Eugenol",
+      "name_ar": "أوجينول",
+      "inci_name": "Eugenol",
+      "synonyms_en": [
+        "Eugenol"
+      ],
+      "synonyms_ar": [
+        "أوجينول"
+      ],
+      "cas_number": "97-53-0",
+      "ec_number": "202-589-1",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "71",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0043",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Amyl cinnamal",
+      "name_ar": "أميل سينامال",
+      "inci_name": "Amyl Cinnamal",
+      "synonyms_en": [
+        "Amyl cinnamal",
+        "alpha-Amyl cinnamaldehyde"
+      ],
+      "synonyms_ar": [
+        "أميل سينامال"
+      ],
+      "cas_number": "122-40-7",
+      "ec_number": "204-541-5",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "67",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0044",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Benzyl salicylate",
+      "name_ar": "بنزيل ساليسيلات",
+      "inci_name": "Benzyl Salicylate",
+      "synonyms_en": [
+        "Benzyl salicylate"
+      ],
+      "synonyms_ar": [
+        "بنزيل ساليسيلات"
+      ],
+      "cas_number": "118-58-1",
+      "ec_number": "204-262-9",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "75",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0045",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Coumarin",
+      "name_ar": "كومارين",
+      "inci_name": "Coumarin",
+      "synonyms_en": [
+        "Coumarin",
+        "2H-1-Benzopyran-2-one"
+      ],
+      "synonyms_ar": [
+        "كومارين"
+      ],
+      "cas_number": "91-64-5",
+      "ec_number": "202-086-7",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "77",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0046",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Geraniol",
+      "name_ar": "جيرانيول",
+      "inci_name": "Geraniol",
+      "synonyms_en": [
+        "Geraniol"
+      ],
+      "synonyms_ar": [
+        "جيرانيول"
+      ],
+      "cas_number": "106-24-1",
+      "ec_number": "203-377-1",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "78",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0047",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Linalool",
+      "name_ar": "لينالول",
+      "inci_name": "Linalool",
+      "synonyms_en": [
+        "Linalool",
+        "3,7-Dimethyl-1,6-octadien-3-ol"
+      ],
+      "synonyms_ar": [
+        "لينالول"
+      ],
+      "cas_number": "78-70-6",
+      "ec_number": "201-134-4",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "84",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0048",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Citronellol",
+      "name_ar": "سيترونيلول",
+      "inci_name": "Citronellol",
+      "synonyms_en": [
+        "Citronellol",
+        "3,7-Dimethyl-6-octen-1-ol"
+      ],
+      "synonyms_ar": [
+        "سيترونيلول"
+      ],
+      "cas_number": "106-22-9",
+      "ec_number": "203-375-0",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "86",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0049",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Hexyl cinnamal",
+      "name_ar": "هيكسيل سينامال",
+      "inci_name": "Hexyl Cinnamal",
+      "synonyms_en": [
+        "Hexyl cinnamal",
+        "2-Benzylideneoctanal"
+      ],
+      "synonyms_ar": [
+        "هيكسيل سينامال"
+      ],
+      "cas_number": "101-86-0",
+      "ec_number": "202-983-3",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "87",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    },
+    {
+      "id": "COS-ING-0050",
+      "kind": "cosmetic_ingredient",
+      "name_en": "Limonene",
+      "name_ar": "ليمونين",
+      "inci_name": "Limonene",
+      "synonyms_en": [
+        "Limonene",
+        "Dipentene",
+        "dl-Limonene"
+      ],
+      "synonyms_ar": [
+        "ليمونين"
+      ],
+      "cas_number": "138-86-3",
+      "ec_number": "205-341-0",
+      "functions_ar": [
+        "مكوّن عطري / مسبب حساسية عطرية"
+      ],
+      "category_ar": "مسبب حساسية عطرية",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1223/2009",
+          "annex": "III",
+          "entry": "88",
+          "status": "labelling_required",
+          "conditions_ar": "يخضع لالتزام وسمي عند تجاوز حدود التركيز المحددة. الوجود في قائمة المكونات لا يعني تجاوز الحدود.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "labelling_threshold",
+          "value": 0.001,
+          "unit": "%",
+          "product_types": [
+            "leave-on"
+          ],
+          "leave_on": true,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.001% في المنتجات التي لا تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        },
+        {
+          "kind": "labelling_threshold",
+          "value": 0.01,
+          "unit": "%",
+          "product_types": [
+            "rinse-off"
+          ],
+          "leave_on": false,
+          "conditions_ar": "يجب ذكر المادة في قائمة المكونات عندما يتجاوز تركيزها 0.01% في المنتجات التي تُشطف.",
+          "reference_ids": [
+            "REF-EU-1223-ANNEX-III"
+          ]
+        }
+      ],
+      "scientific_assessment": [],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحد المذكور هو حد وسمي وليس حد سلامة. قد تسبب المواد العطرية حساسية لدى الأشخاص الحساسين حتى دون تجاوز حد الوسم."
+    }
+  ]
+}

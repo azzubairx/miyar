@@ -1,0 +1,907 @@
+{
+  "foodAdditives": [
+    {
+      "id": "FOOD-ADD-0001",
+      "kind": "food_additive",
+      "name_en": "Tartrazine",
+      "name_ar": "طرطرازين",
+      "e_number": "E 102",
+      "synonyms_en": ["Tartrazine", "FD&C Yellow No. 5", "CI 19140", "E102"],
+      "synonyms_ar": ["طرطرازين", "أصفر 5", "E102"],
+      "cas_number": "1934-21-0",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق الملحق II. المنتجات التي تحتويه ضمن نطاق الملحق V يجب أن تحمل عبارة تنبيه بشأن النشاط والانتباه لدى الأطفال.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 7.5,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول (ADI) ثابت من تقييمات JECFA وSCF، وأعادت EFSA تأكيده.",
+          "reference_ids": ["REF-EFSA-E102-2009"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2009;7(11):1331",
+          "title_ar": "إعادة تقييم الطرطرازين (E 102)",
+          "adopted": "2009-09-23",
+          "summary_ar": "لم تجد EFSA سببًا لتعديل المدخول اليومي المقبول 7.5 mg/kg bw/day. وأشارت إلى أن الطرطرازين قد يثير تفاعلات عدم تحمل لدى نسبة صغيرة من السكان، وقد تحدث لدى بعض الأفراد الحساسين عند مستويات ضمن المدخول اليومي المقبول.",
+          "reference_ids": ["REF-EFSA-E102-2009"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "وجود المادة في قائمة المكونات لا يعني تجاوز المدخول اليومي المقبول؛ لا يمكن حساب التعرض الفعلي دون معرفة الكمية المستهلكة ووزن الجسم."
+    },
+    {
+      "id": "FOOD-ADD-0002",
+      "kind": "food_additive",
+      "name_en": "Quinoline Yellow",
+      "name_ar": "أصفر الكينولين",
+      "e_number": "E 104",
+      "synonyms_en": ["Quinoline Yellow", "CI 47005", "E104"],
+      "synonyms_ar": ["أصفر الكينولين", "E104"],
+      "cas_number": "8004-92-0",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يخضع لعبارة التنبيه الخاصة بالألوان ضمن الملحق V عند انطباقها.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 0.5,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 50 mg/kg bw/day ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E104-2009"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2009;7(11):1329",
+          "title_ar": "إعادة تقييم أصفر الكينولين (E 104)",
+          "adopted": "2009-09-23",
+          "summary_ar": "خفضت EFSA المدخول اليومي المقبول إلى 0.5 mg/kg bw/day، ورأت أن تقديرات التعرض عند الحدود القصوى للاستخدام تتجاوز هذا المدخول بدرجة كبيرة.",
+          "reference_ids": ["REF-EFSA-E104-2009"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يمكن استنتاج تجاوز المدخول اليومي المقبول من ظهور المادة في المكونات وحدها."
+    },
+    {
+      "id": "FOOD-ADD-0003",
+      "kind": "food_additive",
+      "name_en": "Sunset Yellow FCF",
+      "name_ar": "أصفر غروب الشمس FCF",
+      "e_number": "E 110",
+      "synonyms_en": ["Sunset Yellow FCF", "FD&C Yellow No. 6", "CI 15985", "E110"],
+      "synonyms_ar": ["أصفر غروب الشمس", "أصفر 6", "E110"],
+      "cas_number": "2783-94-0",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يخضع لعبارة التنبيه الخاصة بالألوان ضمن الملحق V عند انطباقها.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 4,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 375 mg/kg bw/day ومعامل عدم يقين 100 (تقييم 2014).",
+          "reference_ids": ["REF-EFSA-E110-2014"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2014;12(7):3765",
+          "title_ar": "إعادة النظر في المدخول اليومي المؤقت لـ E 110",
+          "adopted": "2014-06-26",
+          "summary_ar": "بعد بيانات إضافية، رفعت EFSA المدخول اليومي المقبول من 1 mg/kg bw/day المؤقت إلى 4 mg/kg bw/day، ورأت أن التعرض من الاستخدامات المسجلة يبقى دون هذا الحد لجميع الفئات.",
+          "reference_ids": ["REF-EFSA-E110-2014"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الرأي الأحدث هو 2014؛ الرأي المؤقت السابق لعام 2009 لم يعد الأساس المعتمد للمدخول اليومي المقبول."
+    },
+    {
+      "id": "FOOD-ADD-0004",
+      "kind": "food_additive",
+      "name_en": "Azorubine / Carmoisine",
+      "name_ar": "أزوروبين / كارموازين",
+      "e_number": "E 122",
+      "synonyms_en": ["Azorubine", "Carmoisine", "CI 14720", "E122"],
+      "synonyms_ar": ["أزوروبين", "كارموازين", "E122"],
+      "cas_number": "3567-69-9",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يخضع لعبارة التنبيه الخاصة بالألوان ضمن الملحق V عند انطباقها.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 4,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول ثابت من تقييمات JECFA وSCF، وأعادت EFSA تأكيده.",
+          "reference_ids": ["REF-EFSA-E122-2009"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2009;7(11):1332",
+          "title_ar": "إعادة تقييم الأزوروبين/الكارموازين (E 122)",
+          "adopted": "2009-09-24",
+          "summary_ar": "لم تجد EFSA سببًا لتعديل المدخول اليومي المقبول 4 mg/kg bw/day. وأشارت إلى أن بعض الأطفال الذين يستهلكون كميات كبيرة من المنتجات المحتوية عليه قد يتجاوزون هذا المدخول.",
+          "reference_ids": ["REF-EFSA-E122-2009"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يمكن حساب التعرض الفعلي من قائمة المكونات وحدها."
+    },
+    {
+      "id": "FOOD-ADD-0005",
+      "kind": "food_additive",
+      "name_en": "Ponceau 4R",
+      "name_ar": "بونسو 4R",
+      "e_number": "E 124",
+      "synonyms_en": ["Ponceau 4R", "Cochineal Red A", "CI 16255", "E124"],
+      "synonyms_ar": ["بونسو 4R", "أحمر الكوشنيل A", "E124"],
+      "cas_number": "2611-82-7",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يخضع لعبارة التنبيه الخاصة بالألوان ضمن الملحق V عند انطباقها.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 0.7,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 70 mg/kg bw/day ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E124-2009"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2009;7(11):1328",
+          "title_ar": "إعادة تقييم بونسو 4R (E 124)",
+          "adopted": "2009-09-23",
+          "summary_ar": "خفضت EFSA المدخول اليومي المقبول إلى 0.7 mg/kg bw/day. ورأت أن تقديرات التعرض لدى البالغين عند المئين المرتفع ولدى الأطفال 1–10 سنوات تتجاوز هذا المدخول حتى في التقديرات المكررة.",
+          "reference_ids": ["REF-EFSA-E124-2009"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "وجود المادة لا يثبت تجاوز الحد؛ يلزم تقدير تعرض كمي."
+    },
+    {
+      "id": "FOOD-ADD-0006",
+      "kind": "food_additive",
+      "name_en": "Allura Red AC",
+      "name_ar": "ألورا ريد AC",
+      "e_number": "E 129",
+      "synonyms_en": ["Allura Red AC", "FD&C Red No. 40", "CI 16035", "E129"],
+      "synonyms_ar": ["ألورا ريد", "أحمر 40", "E129"],
+      "cas_number": "25956-17-6",
+      "functions_ar": ["ملوّن غذائي اصطناعي"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يخضع لعبارة التنبيه الخاصة بالألوان ضمن الملحق V عند انطباقها.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 7,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول ثابت من تقييمات JECFA وSCF، وأعادت EFSA تأكيده.",
+          "reference_ids": ["REF-EFSA-E129-2009"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2009;7(11):1327",
+          "title_ar": "إعادة تقييم Allura Red AC (E 129)",
+          "adopted": "2009-09-23",
+          "summary_ar": "لم تجد EFSA سببًا لتعديل المدخول اليومي المقبول 7 mg/kg bw/day. وأشارت إلى أن بعض الأطفال الذين يستهلكون كميات كبيرة قد يتجاوزونه.",
+          "reference_ids": ["REF-EFSA-E129-2009"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يمكن استنتاج تجاوز المدخول اليومي المقبول من قائمة المكونات."
+    },
+    {
+      "id": "FOOD-ADD-0007",
+      "kind": "food_additive",
+      "name_en": "Sodium benzoate",
+      "name_ar": "بنزوات الصوديوم",
+      "e_number": "E 211",
+      "synonyms_en": ["Sodium benzoate", "E211", "Benzoic acid sodium salt"],
+      "synonyms_ar": ["بنزوات الصوديوم", "E211"],
+      "cas_number": "532-32-1",
+      "functions_ar": ["مادة حافظة"],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وبحدود استخدام قصوى محددة في الملحق II.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 5,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول معبر عنه كحمض البنزويك، ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E211-2016"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2016;14(3):4433",
+          "title_ar": "إعادة تقييم بنزوات الصوديوم والبوتاسيوم والكالسيوم وحمض البنزويك",
+          "adopted": "2016-03-08",
+          "summary_ar": "اشتقت EFSA مدخولًا يوميًا مقبولًا مقداره 5 mg/kg bw/day (كحمض البنزويك) باستخدام معامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E211-2016"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يمكن تقييم التعرض دون معرفة تركيز المادة في المنتج وكمية الاستهلاك."
+    },
+    {
+      "id": "FOOD-ADD-0008",
+      "kind": "food_additive",
+      "name_en": "Sulphur dioxide and sulphites",
+      "name_ar": "ثاني أكسيد الكبريت والسلفيتات",
+      "e_number": "E 220–E 228",
+      "synonyms_en": ["Sulphur dioxide", "Sulfur dioxide", "Sodium metabisulphite", "E220", "E223"],
+      "synonyms_ar": ["ثاني أكسيد الكبريت", "ميتابيسلفيت الصوديوم", "سلفيتات", "E220"],
+      "cas_number": "7446-09-5",
+      "functions_ar": ["مادة حافظة", "مضاد أكسدة"],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. عند تجاوز 10 mg/kg أو 10 mg/L (معبرًا عنه بـ SO2) يلزم وسم مسبب الحساسية وفق لائحة معلومات الغذاء.",
+          "reference_ids": ["REF-EU-1333-2008", "REF-EU-1169-2011"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 0.7,
+          "unit": "mg SO2 equivalent/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول جماعي مؤقت للسلفيتات السبعة مجتمعة.",
+          "reference_ids": ["REF-EFSA-E220-2016"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2016;14(4):4438",
+          "title_ar": "إعادة تقييم ثاني أكسيد الكبريت والسلفيتات (E 220–E 228)",
+          "adopted": "2016-03-09",
+          "summary_ar": "أبقت EFSA المدخول اليومي المقبول الجماعي عند 0.7 mg SO2 equivalent/kg bw/day لكنها اعتبرته مؤقتًا بسبب قيود قاعدة البيانات. ورأت أن تقديرات التعرض أعلى من هذا الحد لجميع الفئات.",
+          "reference_ids": ["REF-EFSA-E220-2016"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "المدخول اليومي المقبول مؤقت. لا يمكن حساب التعرض من قائمة المكونات وحدها."
+    },
+    {
+      "id": "FOOD-ADD-0009",
+      "kind": "food_additive",
+      "name_en": "Sodium nitrite",
+      "name_ar": "نتريت الصوديوم",
+      "e_number": "E 250",
+      "synonyms_en": ["Sodium nitrite", "E250"],
+      "synonyms_ar": ["نتريت الصوديوم", "E250"],
+      "cas_number": "7632-00-0",
+      "functions_ar": ["مادة حافظة", "مثبت لون"],
+      "category_ar": "مادة حافظة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في منتجات لحوم معالجة محددة وبحدود استخدام قصوى محددة. يرتبط استخدامه بتكوين النيتروزامينات في ظروف معينة.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 0.07,
+          "unit": "mg nitrite ion/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من نهج BMD لأيون النتريت.",
+          "reference_ids": ["REF-EFSA-E250-2017"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2017;15(6):4786",
+          "title_ar": "إعادة تقييم نتريت البوتاسيوم ونتريت الصوديوم (E 249–E 250)",
+          "adopted": "2017-06",
+          "summary_ar": "اشتقت EFSA مدخولًا يوميًا مقبولًا مقداره 0.07 mg nitrite ion/kg bw/day. ورأت أن التعرض من الاستخدام كمضاف غذائي لا يتجاوز هذا الحد عمومًا، مع تجاوز طفيف لدى الأطفال عند المئين الأعلى.",
+          "reference_ids": ["REF-EFSA-E250-2017"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "التقييم لا يشمل التعرض الكلي من مصادر أخرى، ولا يثبت أن منتجًا بعينه آمن."
+    },
+    {
+      "id": "FOOD-ADD-0010",
+      "kind": "food_additive",
+      "name_en": "Butylated hydroxyanisole",
+      "name_ar": "هيدروكسي أنيسول البيوتيل",
+      "e_number": "E 320",
+      "synonyms_en": ["Butylated hydroxyanisole", "BHA", "E320"],
+      "synonyms_ar": ["BHA", "هيدروكسي أنيسول البيوتيل", "E320"],
+      "cas_number": "25013-16-5",
+      "functions_ar": ["مضاد أكسدة"],
+      "category_ar": "مضاد أكسدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وبحدود استخدام قصوى.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 1,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 100 mg/kg bw/day ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E320-2011"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2011;9(10):2392",
+          "title_ar": "إعادة تقييم BHA (E 320)",
+          "adopted": "2011-10-12",
+          "summary_ar": "رفعت EFSA المدخول اليومي المقبول إلى 1.0 mg/kg bw/day استنادًا إلى NOAEL 100 mg/kg bw/day لآثار النمو والوفيات والسلوك في صغار الفئران.",
+          "reference_ids": ["REF-EFSA-E320-2011"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "لا يمكن استنتاج تجاوز المدخول اليومي المقبول من وجود المادة في المكونات."
+    },
+    {
+      "id": "FOOD-ADD-0011",
+      "kind": "food_additive",
+      "name_en": "Butylated hydroxytoluene",
+      "name_ar": "هيدروكسي تولوين البيوتيل",
+      "e_number": "E 321",
+      "synonyms_en": ["Butylated hydroxytoluene", "BHT", "E321"],
+      "synonyms_ar": ["BHT", "هيدروكسي تولوين البيوتيل", "E321"],
+      "cas_number": "128-37-0",
+      "functions_ar": ["مضاد أكسدة"],
+      "category_ar": "مضاد أكسدة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وبحدود استخدام قصوى.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 0.25,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 25 mg/kg bw/day ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E321-2012"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2012;10(3):2588",
+          "title_ar": "إعادة تقييم BHT (E 321)",
+          "adopted": "2012-03",
+          "summary_ar": "اشتقت EFSA مدخولًا يوميًا مقبولًا مقداره 0.25 mg/kg bw/day استنادًا إلى NOAEL 25 mg/kg bw/day من دراستي تكاثر على الفئران.",
+          "reference_ids": ["REF-EFSA-E321-2012"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "التعرض من مواد التلامس الغذائي لا يدخل تلقائيًا في تقييم المنتج."
+    },
+    {
+      "id": "FOOD-ADD-0012",
+      "kind": "food_additive",
+      "name_en": "Aspartame",
+      "name_ar": "أسبارتام",
+      "e_number": "E 951",
+      "synonyms_en": ["Aspartame", "E951", "NutraSweet"],
+      "synonyms_ar": ["أسبارتام", "E951"],
+      "cas_number": "22839-47-0",
+      "functions_ar": ["مُحلٍّ اصطناعي"],
+      "category_ar": "مُحلٍّ",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. المنتجات التي تحتويه يجب أن تحمل عبارة تفيد باحتوائها على مصدر فينيل ألانين، وتنبيهًا لمن يعانون من بيلة الفينيل كيتون (PKU).",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 40,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول أعادت EFSA تأكيده في 2013.",
+          "reference_ids": ["REF-EFSA-E951-2013"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2013;11(12):3496",
+          "title_ar": "إعادة تقييم الأسبارتام (E 951)",
+          "adopted": "2013-11-28",
+          "summary_ar": "أعادت EFSA تأكيد المدخول اليومي المقبول 40 mg/kg bw/day. واستندت في تقييم السمية التنموية إلى البيانات البشرية المتعلقة بالفينيل ألانين.",
+          "reference_ids": ["REF-EFSA-E951-2013"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "تحذير PKU إلزامي وسمي، وليس استنتاجًا من محرك التقييم."
+    },
+    {
+      "id": "FOOD-ADD-0013",
+      "kind": "food_additive",
+      "name_en": "Steviol glycosides",
+      "name_ar": "جليكوسيدات الستيفيول",
+      "e_number": "E 960",
+      "synonyms_en": ["Steviol glycosides", "Stevia", "E960", "Rebaudioside A"],
+      "synonyms_ar": ["جليكوسيدات الستيفيول", "ستيفيا", "E960"],
+      "cas_number": "57817-89-7",
+      "functions_ar": ["مُحلٍّ طبيعي المنشأ"],
+      "category_ar": "مُحلٍّ",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة، مع تعبير المدخول اليومي المقبول عن مكافئات الستيفيول.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 4,
+          "unit": "mg/kg bw/day (as steviol equivalents)",
+          "basis_ar": "مدخول يومي مقبول معبر عنه كمكافئات الستيفيول، ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E960-2010"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2010;8(4):1537",
+          "title_ar": "سلامة جليكوسيدات الستيفيول (E 960)",
+          "adopted": "2010-03-10",
+          "summary_ar": "أثبتت EFSA مدخولًا يوميًا مقبولًا مقداره 4 mg/kg bw/day (كمكافئات الستيفيول) استنادًا إلى NOAEL من دراسة سرطنة لمدة سنتين على الفئران.",
+          "reference_ids": ["REF-EFSA-E960-2010"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "المدخول اليومي المقبول يعبر عنه بمكافئات الستيفيول، لا بوزن المستحضر كما هو."
+    },
+    {
+      "id": "FOOD-ADD-0014",
+      "kind": "food_additive",
+      "name_en": "Carrageenan",
+      "name_ar": "كاراجينان",
+      "e_number": "E 407",
+      "synonyms_en": ["Carrageenan", "E407", "Processed Eucheuma seaweed"],
+      "synonyms_ar": ["كاراجينان", "E407"],
+      "cas_number": "9000-07-1",
+      "functions_ar": ["مثبّت", "مغلّظ", "مستحلب"],
+      "category_ar": "مثبّت ومغلّظ",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة، مع حدود استخدام قصوى بحسب الفئة.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 75,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول جماعي مؤقت للكاراجينان وطحلب Eucheuma المعالج.",
+          "reference_ids": ["REF-EFSA-E407-2018"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2018;16(4):5238",
+          "title_ar": "إعادة تقييم الكاراجينان (E 407) وE 407a",
+          "adopted": "2018-03-14",
+          "summary_ar": "رأت EFSA أن المدخول اليومي المقبول الجماعي 75 mg/kg bw/day يجب أن يبقى مؤقتًا، مع تحسين قاعدة البيانات خلال خمس سنوات. ولم تجد أدلة على سرطانة أو سمية وراثية في الدراسات المتاحة.",
+          "reference_ids": ["REF-EFSA-E407-2018"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "المدخول اليومي المقبول مؤقت، وليس تصريحًا بأن كل استخدام آمن."
+    },
+    {
+      "id": "FOOD-ADD-0015",
+      "kind": "food_additive",
+      "name_en": "Monosodium glutamate",
+      "name_ar": "غلوتامات أحادية الصوديوم",
+      "e_number": "E 621",
+      "synonyms_en": ["Monosodium glutamate", "MSG", "E621", "Sodium glutamate"],
+      "synonyms_ar": ["غلوتامات أحادية الصوديوم", "MSG", "E621"],
+      "cas_number": "142-47-2",
+      "functions_ar": ["معزز نكهة"],
+      "category_ar": "معزز نكهة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة. يندرج ضمن مجموعة حمض الغلوتاميك والغلوتامات (E 620–E 625).",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 30,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول جماعي لمجموعة الغلوتامات (E 620–E 625).",
+          "reference_ids": ["REF-EFSA-E621-2017"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2017;15(7):4910",
+          "title_ar": "إعادة تقييم حمض الغلوتاميك والغلوتامات (E 620–E 625)",
+          "adopted": "2017-07-12",
+          "summary_ar": "اشتقت EFSA مدخولًا يوميًا مقبولًا جماعيًا مقداره 30 mg/kg bw/day استنادًا إلى NOAEL 3200 mg/kg bw/day من دراسة سمية نمو عصبي.",
+          "reference_ids": ["REF-EFSA-E621-2017"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "المدخول اليومي المقبول يخص المجموعة ككل، ولا يمكن مقارنة كمية المنتج به مباشرة."
+    },
+    {
+      "id": "FOOD-ADD-0016",
+      "kind": "food_additive",
+      "name_en": "Xanthan gum",
+      "name_ar": "صمغ الزانثان",
+      "e_number": "E 415",
+      "synonyms_en": ["Xanthan gum", "E415"],
+      "synonyms_ar": ["صمغ الزانثان", "E415"],
+      "cas_number": "11138-66-2",
+      "functions_ar": ["مثبّت", "مغلّظ"],
+      "category_ar": "مثبّت ومغلّظ",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق شروط الاستخدام.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": null,
+          "unit": "not specified",
+          "basis_ar": "لا حاجة إلى مدخول يومي مقبول رقمي وفق تقييم EFSA.",
+          "reference_ids": ["REF-EFSA-E415-2017"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2017;15(7):4909",
+          "title_ar": "إعادة تقييم صمغ الزانثان (E 415)",
+          "adopted": "2017-07-14",
+          "summary_ar": "رأت EFSA أنه لا حاجة إلى مدخول يومي مقبول رقمي، ولا يوجد قلق على السلامة عند مستويات التعرض المكررة لدى عموم السكان. ولم يُعتبر التقييم قابلًا للتطبيق على الرضع دون 12 أسبوعًا.",
+          "reference_ids": ["REF-EFSA-E415-2017"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "«لا حاجة إلى ADI رقمي» لا تعني أن المادة آمنة في جميع الكميات أو لجميع الفئات."
+    },
+    {
+      "id": "FOOD-ADD-0017",
+      "kind": "food_additive",
+      "name_en": "Lecithins",
+      "name_ar": "ليسيثينات",
+      "e_number": "E 322",
+      "synonyms_en": ["Lecithins", "Soy lecithin", "E322"],
+      "synonyms_ar": ["ليسيثين", "ليسيثين الصويا", "E322"],
+      "cas_number": "8002-43-5",
+      "functions_ar": ["مستحلب", "مضاد أكسدة"],
+      "category_ar": "مستحلب",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق شروط الاستخدام.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": null,
+          "unit": "not specified",
+          "basis_ar": "لا حاجة إلى مدخول يومي مقبول رقمي وفق تقييم EFSA.",
+          "reference_ids": ["REF-EFSA-E322-2017"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2017;15(4):4742",
+          "title_ar": "إعادة تقييم الليسيثينات (E 322)",
+          "adopted": "2017-03-01",
+          "summary_ar": "رأت EFSA أنه لا حاجة إلى مدخول يومي مقبول رقمي، ولا يوجد قلق على السلامة عند مستويات التعرض المكررة للأشخاص فوق سنة واحدة، وكذلك للرضع والأطفال في الأغذية الخاصة عند الاستخدامات المسجلة.",
+          "reference_ids": ["REF-EFSA-E322-2017"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الليسيثين قد يكون من الصويا أو البيض؛ هذا جانب حساسية غذائية لا يغطيه تقييم المضاف."
+    },
+    {
+      "id": "FOOD-ADD-0018",
+      "kind": "food_additive",
+      "name_en": "Titanium dioxide",
+      "name_ar": "ثاني أكسيد التيتانيوم",
+      "e_number": "E 171",
+      "synonyms_en": ["Titanium dioxide", "E171", "CI 77891"],
+      "synonyms_ar": ["ثاني أكسيد التيتانيوم", "E171"],
+      "cas_number": "13463-67-7",
+      "functions_ar": ["ملوّن غذائي", "عامل تعتيم"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Commission Regulation (EU) 2022/63",
+          "status": "prohibited",
+          "conditions_ar": "لم يعد مسموحًا باستخدامه كمضاف غذائي في الاتحاد الأوروبي بعد إزالته من قوائم المضافات المسموح بها. قد يظل مسموحًا في نطاقات تنظيمية أخرى، ويجب التحقق من التشريع المحلي.",
+          "reference_ids": ["REF-EU-2022-63", "REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": null,
+          "unit": "not applicable",
+          "basis_ar": "لم يعد له مدخول يومي مقبول كمضاف غذائي في الاتحاد الأوروبي بعد الحظر.",
+          "reference_ids": ["REF-EU-2022-63"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "Regulation (EU) 2022/63",
+          "title_ar": "إزالة E 171 من قائمة المضافات الغذائية المسموح بها",
+          "adopted": "2022-01-14",
+          "summary_ar": "أزالت المفوضية الأوروبية ثاني أكسيد التيتانيوم (E 171) من قائمة المضافات الغذائية المسموح بها في الاتحاد الأوروبي.",
+          "reference_ids": ["REF-EU-2022-63"]
+        }
+      ],
+      "confidence": "official_regulation",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الحظر تنظيمي أوروبي؛ لا يعني تلقائيًا حظرًا في كل دولة. لا تُستخدم هذه المادة كمثال على «السمية» بل على اختلاف الوضع التنظيمي."
+    },
+    {
+      "id": "FOOD-ADD-0019",
+      "kind": "food_additive",
+      "name_en": "Curcumin",
+      "name_ar": "كركمين",
+      "e_number": "E 100",
+      "synonyms_en": ["Curcumin", "Turmeric yellow", "CI 75300", "E100"],
+      "synonyms_ar": ["كركمين", "أصفر الكركم", "E100"],
+      "cas_number": "458-37-7",
+      "functions_ar": ["ملوّن غذائي طبيعي المنشأ"],
+      "category_ar": "ملوّن غذائي",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق الملحق II.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": 3,
+          "unit": "mg/kg bw/day",
+          "basis_ar": "مدخول يومي مقبول مشتق من NOAEL 250–320 mg/kg bw/day ومعامل عدم يقين 100.",
+          "reference_ids": ["REF-EFSA-E100-2010"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2010;8(9):1679",
+          "title_ar": "إعادة تقييم الكركمين (E 100)",
+          "adopted": "2010-07-07",
+          "summary_ar": "أثبتت EFSA مدخولًا يوميًا مقبولًا مقداره 3 mg/kg bw/day. ورأت أن تقديرات التعرض لدى الأطفال 1–10 سنوات تتجاوز هذا الحد في بعض الدول الأوروبية عند الحدود القصوى للاستخدام.",
+          "reference_ids": ["REF-EFSA-E100-2010"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "الكركمين الغذائي ليس مكمّلًا دوائيًا، ولا يجوز نقل استنتاجات الجرعات الدوائية إليه."
+    },
+    {
+      "id": "FOOD-ADD-0020",
+      "kind": "food_additive",
+      "name_en": "Calcium carbonate",
+      "name_ar": "كربونات الكالسيوم",
+      "e_number": "E 170",
+      "synonyms_en": ["Calcium carbonate", "E170", "CI 77220"],
+      "synonyms_ar": ["كربونات الكالسيوم", "E170"],
+      "cas_number": "471-34-1",
+      "functions_ar": ["ملوّن", "عامل حموضة", "مثبّت"],
+      "category_ar": "ملوّن وعامل حموضة",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق الملحق II.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": null,
+          "unit": "not specified",
+          "basis_ar": "مدخول يومي جماعي «غير محدد» لمجموعة الكربونات وفق SCF، وأيدته EFSA.",
+          "reference_ids": ["REF-EFSA-E170-2011"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2011;9(7):2318",
+          "title_ar": "إعادة تقييم كربونات الكالسيوم (E 170)",
+          "adopted": "2011-07-05",
+          "summary_ar": "أيدت EFSA المدخول اليومي الجماعي «غير المحدد» لكربونات الكالسيوم، مع ملاحظة أن التعرض الكلي للكالسيوم من جميع المصادر يبقى دون الحد الأعلى 2500 mg/day.",
+          "reference_ids": ["REF-EFSA-E170-2011"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "«غير محدد» يعني عدم الحاجة إلى حد رقمي في سياق الاستخدامات المسجلة، وليس غياب أي اعتبار للكمية."
+    },
+    {
+      "id": "FOOD-ADD-0021",
+      "kind": "food_additive",
+      "name_en": "Pectins",
+      "name_ar": "بكتينات",
+      "e_number": "E 440",
+      "synonyms_en": ["Pectin", "Amidated pectin", "E440"],
+      "synonyms_ar": ["بكتين", "بكتين مؤمّد", "E440"],
+      "cas_number": "9000-69-5",
+      "functions_ar": ["مغلّظ", "مثبّت", "عامل هلامي"],
+      "category_ar": "مغلّظ ومثبّت",
+      "regulatory_status": [
+        {
+          "framework": "EU",
+          "instrument": "Regulation (EC) No 1333/2008",
+          "status": "authorised",
+          "conditions_ar": "مسموح في فئات غذائية محددة وفق الملحق II.",
+          "reference_ids": ["REF-EU-1333-2008"]
+        }
+      ],
+      "limits": [
+        {
+          "kind": "adi",
+          "value": null,
+          "unit": "not specified",
+          "basis_ar": "لا حاجة إلى مدخول يومي مقبول رقمي وفق تقييم EFSA.",
+          "reference_ids": ["REF-EFSA-E440-2017"]
+        }
+      ],
+      "scientific_assessment": [
+        {
+          "opinion_number": "EFSA Journal 2017;15(7):4866",
+          "title_ar": "إعادة تقييم البكتين والبكتين المؤمّد (E 440)",
+          "adopted": "2017-07-06",
+          "summary_ar": "رأت EFSA أنه لا حاجة إلى مدخول يومي مقبول رقمي، ولا يوجد قلق على السلامة عند الاستخدامات المسجلة لعموم السكان.",
+          "reference_ids": ["REF-EFSA-E440-2017"]
+        }
+      ],
+      "confidence": "official_scientific_opinion",
+      "last_reviewed": "2026-11-27",
+      "verification_status": "verified",
+      "notes_ar": "«لا حاجة إلى ADI رقمي» لا تعني ضمان السلامة لكل كمية أو لكل فئة."
+    }
+  ]
+}
