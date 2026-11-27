@@ -129,7 +129,7 @@ miyar/
 أضف الملف `.github/workflows/deploy.yml` (موجود في المستودع):
 
 ```yaml
-name: Deploy to GitHub Pages
+name: Build and deploy
 on:
   push:
     branches: [main]
@@ -154,11 +154,16 @@ jobs:
       - run: npm run validate
       - run: npm test
       - run: npm run build
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Configure Pages
+        if: github.event.repository.visibility == 'public'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: github.event.repository.visibility == 'public'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
   deploy:
+    if: github.event.repository.visibility == 'public'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -170,6 +175,8 @@ jobs:
 ```
 
 ثم من المستودع: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+> **ملاحظة للخطة المجانية:** GitHub Pages لا يدعم المستودعات الخاصة على الخطة المجانية. سير العمل يبني ويختبر في كل مرة، لكنه يتخطى خطوات Pages إذا كان المستودع خاصًا. لنشر الموقع، اجعل المستودع عامًا أو استخدم خطة تدعم Pages للمستودعات الخاصة. يمكنك دائمًا رفع `dist/` إلى أي استضافة ثابتة.
 
 ### الطريقة 2: النشر اليدوي
 
