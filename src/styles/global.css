@@ -2746,6 +2746,22 @@ svg {
   gap: 0;
   margin-bottom: 30px;
 }
+.timeline-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 26px 0 4px;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--green-deep);
+}
+.timeline-heading span {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+}
 .timeline-item {
   display: grid;
   grid-template-columns: 60px minmax(0, 1fr);

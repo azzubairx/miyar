@@ -11,7 +11,9 @@ export default function ChangelogPage() {
           <BookIcon size={28} />
         </div>
         <div>
-          <span className="mono-label">CHANGELOG / {meta.version}</span>
+          <span className="mono-label">
+            CHANGELOG / KB {meta.version} · PLATFORM {meta.platform_version}
+          </span>
           <h1>سجل التغييرات</h1>
           <p>
             ماذا تغير في قاعدة المعرفة والمحركات، ومتى. كل إصدار يحمل نطاقه وحدوده، حتى تعرف ما
@@ -22,8 +24,9 @@ export default function ChangelogPage() {
 
       <div className="changelog-head">
         <div>
-          <Badge tone="green">الإصدار الحالي {meta.version}</Badge>
-          <span>آخر تحديث: {meta.updated}</span>
+          <Badge tone="green">قاعدة المعرفة {meta.version}</Badge>
+          <Badge tone="amber">المنصة {meta.platform_version}</Badge>
+          <span>آخر تحديث للقاعدة: {meta.updated}</span>
         </div>
         <div className="changelog-stats">
           <span>{foodAdditives.length} إضافة</span>
@@ -32,6 +35,24 @@ export default function ChangelogPage() {
         </div>
       </div>
 
+      <h2 className="timeline-heading">
+        المنصة <span>{meta.platform_version}</span>
+      </h2>
+      <section className="timeline">
+        {meta.platform_changelog_ar.map((item, index) => (
+          <article className="timeline-item" key={item}>
+            <div className="timeline-marker">{String(index + 1).padStart(2, '0')}</div>
+            <div className="timeline-body">
+              <h2>{index === 0 ? `إصدار المنصة ${meta.platform_version}` : 'تحديث'}</h2>
+              <p>{item.replace(/^[\d.]+\s*—\s*/, '')}</p>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <h2 className="timeline-heading">
+        قاعدة المعرفة <span>{meta.version}</span>
+      </h2>
       <section className="timeline">
         {meta.changelog_ar.map((item, index) => (
           <article className="timeline-item" key={item}>

@@ -110,6 +110,9 @@ export type KnowledgeEntry = FoodAdditive | CosmeticIngredient;
 export interface KnowledgeBaseMeta {
   version: string;
   updated: string;
+  platform_version: string;
+  platform_updated: string;
+  platform_changelog_ar: string[];
   food_additives_count: number;
   cosmetic_ingredients_count: number;
   references_count: number;
