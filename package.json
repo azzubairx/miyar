@@ -10,7 +10,10 @@
   "scripts": {
     "test": "vitest run",
     "dev": "vite",
+    "assets": "node scripts/copy-vendor-assets.mjs",
+    "predev": "npm run assets",
     "build": "tsc -b && vite build",
+    "prebuild": "npm run assets",
     "preview": "vite preview",
     "test:watch": "vitest",
     "validate": "tsx scripts/validate-data.ts"
@@ -21,11 +24,16 @@
   "type": "module",
   "private": "true",
   "dependencies": {
+    "idb": "^8.0.4",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "react-router-dom": "^7.18.7"
+    "react-router-dom": "^7.18.7",
+    "tesseract.js": "^7.0.0",
+    "zxing-wasm": "^3.1.8"
   },
   "devDependencies": {
+    "@tesseract.js-data/ara": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
     "@types/node": "^26.6.11",
     "@types/react": "^19.3.3",
     "@types/react-dom": "^19.3.0",

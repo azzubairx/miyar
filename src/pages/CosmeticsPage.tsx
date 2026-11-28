@@ -1,6 +1,8 @@
 import { useMemo, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BarcodeImporter from '../components/BarcodeImporter';
+import ProductCapture from '../components/ProductCapture';
+import type { ReviewPayload } from '../components/OcrReview';
 import { SelectField, TextAreaField, TextField } from '../components/form';
 import { ArrowIcon, FlaskIcon } from '../components/Icons';
 import { Callout, SectionHeading } from '../components/ui';
@@ -61,6 +63,12 @@ export default function CosmeticsPage() {
     if (imported.name) setName(imported.name);
     if (imported.brand) setBrand(imported.brand);
     if (imported.ingredientsText) setIngredientsText(imported.ingredientsText);
+  };
+
+  const handleCaptureConfirmed = (payload: ReviewPayload) => {
+    if (payload.productName) setName(payload.productName);
+    if (payload.ingredientsText) setIngredientsText(payload.ingredientsText);
+    setError('');
   };
 
   const fillExample = () => {
@@ -132,6 +140,18 @@ export default function CosmeticsPage() {
           </p>
         </div>
       </header>
+
+      <section className="capture-block" aria-labelledby="cosmetics-capture-title">
+        <div className="capture-block-head">
+          <span className="mono-label">PATH 1 / CAMERA + OCR</span>
+          <h2 id="cosmetics-capture-title">صوّر قائمة المكونات بدل الكتابة</h2>
+          <p>
+            مسار مستقل عن الإدخال اليدوي والباركود. صوّر INCI كاملة، ويمكن تقسيمها على عدة صور.
+            راجع الأسماء والترتيب قبل أن تنتقل إلى النموذج.
+          </p>
+        </div>
+        <ProductCapture kind="cosmetics" onConfirm={handleCaptureConfirmed} />
+      </section>
 
       <div className="form-layout">
         <form className="analysis-form" onSubmit={handleSubmit} noValidate>

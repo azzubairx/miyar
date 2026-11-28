@@ -1,6 +1,8 @@
 import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BarcodeImporter from '../components/BarcodeImporter';
+import ProductCapture from '../components/ProductCapture';
+import type { ReviewPayload } from '../components/OcrReview';
 import { NumberField, SelectField, TextAreaField, TextField } from '../components/form';
 import { ArrowIcon, LeafIcon } from '../components/Icons';
 import { Callout, SectionHeading } from '../components/ui';
@@ -85,6 +87,33 @@ export default function FoodPage() {
     }
   };
 
+  const handleCaptureConfirmed = (payload: ReviewPayload) => {
+    if (payload.productName) setName(payload.productName);
+    if (payload.ingredientsText) setIngredientsText(payload.ingredientsText);
+    if (payload.servingSize) setServingSize(payload.servingSize);
+    setNutritionBasis(payload.nutritionBasis);
+    setNutrition((current) => {
+      const next = { ...current };
+      const keys: Array<keyof NutritionForm> = [
+        'energy_kj',
+        'energy_kcal',
+        'fat_saturated_g',
+        'sugars_total_g',
+        'fibre_g',
+        'protein_g',
+        'sodium_mg',
+        'salt_g',
+        'fruit_veg_nuts_percent',
+      ];
+      for (const key of keys) {
+        const value = payload.nutrition[key];
+        if (value !== null && value !== undefined) next[key] = String(value);
+      }
+      return next;
+    });
+    setError('');
+  };
+
   const fillExample = () => {
     setName('فروماچ فواكه');
     setBrand('مثال توضيحي');
@@ -158,6 +187,18 @@ export default function FoodPage() {
           </p>
         </div>
       </header>
+
+      <section className="capture-block" aria-labelledby="food-capture-title">
+        <div className="capture-block-head">
+          <span className="mono-label">PATH 1 / CAMERA + OCR</span>
+          <h2 id="food-capture-title">صوّر الملصق بدل الكتابة</h2>
+          <p>
+            مسار مستقل عن الإدخال اليدوي والباركود. نقرأ الصورة داخل المتصفح، ثم تعرض عليك شاشة
+            مراجعة إلزامية قبل أن تنتقل أي قيمة إلى النموذج.
+          </p>
+        </div>
+        <ProductCapture kind="food" onConfirm={handleCaptureConfirmed} />
+      </section>
 
       <div className="form-layout">
         <form className="analysis-form" onSubmit={handleSubmit} noValidate>

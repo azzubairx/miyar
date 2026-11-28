@@ -136,3 +136,82 @@ export function PrintIcon({ size, ...props }: IconProps) {
     </svg>
   );
 }
+
+export function CameraIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" />
+      <circle cx="12" cy="13" r="3.2" />
+    </svg>
+  );
+}
+
+export function ImageIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <circle cx="8.5" cy="9" r="1.5" />
+      <path d="m21 16-5-5-8 8" />
+    </svg>
+  );
+}
+
+export function ScanIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3" />
+      <path d="M7 8v8M10 8v8M13 8v8M16 8v8" />
+    </svg>
+  );
+}
+
+export function RotateIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M20 7v5h-5" />
+      <path d="M4.5 16a8 8 0 1 0 1.8-9.5L4 9" />
+    </svg>
+  );
+}
+
+export function TrashIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14M10 11v6M14 11v6" />
+    </svg>
+  );
+}
+
+export function SwitchCameraIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" />
+      <path d="M9 14a3 3 0 0 0 5 2M15 14a3 3 0 0 0-5-2M14 16v-2h2M10 12v2H8" />
+    </svg>
+  );
+}
+
+export function FlashIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" />
+    </svg>
+  );
+}
+
+export function StopIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <rect x="6" y="6" width="12" height="12" rx="1.5" />
+    </svg>
+  );
+}
+
+export function UploadIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <path d="M12 16V4M7 9l5-5 5 5" />
+      <path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4" />
+    </svg>
+  );
+}
